@@ -6,7 +6,7 @@
 
 ## **1. Chargement et préparation des données**
 
-* Chargez le dataset **MUTAG** via `load_dataset("graphs-datasets/MUTAG")`.
+* Chargez le dataset **MUTAG** via `load_dataset("graphs-datasets/MUTAG")` issue de la librairie `datasets` de huggingface.
 * Construisez une liste `edges` contenant toutes les arêtes de tous les graphes, en utilisant une liste `offsets` pour mémoriser les décalages d’index entre graphes.
 * Créez un graphe `G` avec `networkx` et visualisez-le. **Question** : Que remarquez-vous sur la structure du graphe ?
 
